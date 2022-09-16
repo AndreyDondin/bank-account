@@ -1,0 +1,23 @@
+@media (max-width: 1092px) {
+  .container {
+    padding: 0 20px;
+  }
+
+  .clients__table-item {
+    padding: 20px 10px 20px 10px;
+  }
+
+  .edit-btn {
+    margin-right: 10px;
+  }
+}
+
+@media (max-width: 750px) {
+  .container {
+    max-width: 710px;
+    overflow-x: scroll;
+  }
+  .edit-btn {
+    margin-right: 0;
+  }
+}
